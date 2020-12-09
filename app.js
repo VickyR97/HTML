@@ -16,6 +16,9 @@ const server = http.createServer((req, res)=>{
     })
 })
 
+
+console.log("Check merge branch")
+
 server.listen(port, (error)=>{
     if(error){
         console.log('Something wrong',error)
